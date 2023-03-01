@@ -1,7 +1,7 @@
 /.ipynb_checkpoints
-
+/.vscode
 /models
-
+test.py
 
 # Byte-compiled / optimized / DLL files
 results
