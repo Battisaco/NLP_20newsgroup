@@ -3,6 +3,10 @@
 /models
 test.py
 
+saved_models/RoBERTa_model/RoBERTa_model.h5
+
+text_data_analysis.ipynb
+
 # Byte-compiled / optimized / DLL files
 results
 __pycache__/

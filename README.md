@@ -19,7 +19,7 @@ This notebook has 3 steps:
   - Baseline model - Logistic Regression
   - Deep learning I - CNN
   - Deep learning II - RNN
-  - RoBERTa (work in progress)
+  - RoBERTa 
 
 - Model comparison (Work in progress)
 
@@ -44,13 +44,16 @@ Having the basic metrics, I implemented the first deep learning algorithm, a con
 Remember that for the deep learning algorithms a tuning of hyperparameters was done, within the computational limitations, the best models were saved in
  [Saved models](./saved_models/)
 
+* RoBERTa weight where too big to save in github, so it can be downloaded from this drive :
+[RoBERTa weights](https://drive.google.com/drive/folders/1sK5oCn8W2RjCzYfBiq-BO2KPhWtsf9IB?usp=sharing)
+
 After CNN, I also did the same process for recurrent neural networks (RNN), which are most commonly used for text data. 
 
 In the future, the RoBERTa algorithm will also be implemented, but unlike the ones implemented so far, I expect this one to make use of transfer learning, instead of training from scratch, I will train only the final layers.
 
 ## Next steps
 
-- [ ] Add roberta algorithms
+- [x] Add RoBERTa algorithms
 - [ ] Make the models comparison section
 - [ ] Create an exclusive notebook for the analysis of this dataset
 - [ ] (Future) Implement a model to write news of some category from this dataset
