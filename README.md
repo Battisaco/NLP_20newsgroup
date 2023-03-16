@@ -6,7 +6,17 @@ The aim is to understand the textual data as well be able to classify the new ca
 
 The data set is the 20newsgroup that can be found on this link: [Kaggle 20neswgroup](https://www.kaggle.com/datasets/crawford/20-newsgroups?resource=download)
 
-## text_analysis.ipynb 
+## text_data_analysis.ipynb 
+
+This is a simple notebook to understang and view the major differences between the categories.
+
+- Categoreis study 
+  - Number os texts in each categorie
+  - Most common words
+  - Mean word count for categories texts
+
+This way, we have a better knowledge of the that we are working with.
+## text_classification.ipynb 
 
 This notebook has 3 steps:
 - Data preparation
@@ -55,7 +65,7 @@ In the future, the RoBERTa algorithm will also be implemented, but unlike the on
 
 - [x] Add RoBERTa algorithms
 - [ ] Make the models comparison section
-- [ ] Create an exclusive notebook for the analysis of this dataset
+- [x] Create an exclusive notebook for the analysis of this dataset
 - [ ] (Future) Implement a model to write news of some category from this dataset
 
 
